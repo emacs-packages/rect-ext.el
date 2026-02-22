@@ -4,7 +4,7 @@
 ;; URL: https://github.com/noctuid/rect-ext.el
 ;; Created: November 15, 2016
 ;; Keywords: rectangle
-;; Package-Requires: ((cl-lib "0.5") (emacs "24.4"))
+;; Package-Requires: ((cl-lib "0.5") (emacs "24.4") (evil "1.0"))
 ;; Version: 0.1
 
 ;; This file is not part of GNU Emacs.
