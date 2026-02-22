@@ -31,6 +31,7 @@
 ;;; Code:
 (require 'rect)
 (require 'cl-lib)
+(eval-when-compile (require 'evil nil t))
 
 (defgroup rect-ext nil
   "Provides extensions to rect.el such as a narrowing command for rectangles."
