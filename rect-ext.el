@@ -32,6 +32,14 @@
 (require 'rect)
 (require 'cl-lib)
 (eval-when-compile (require 'evil nil t))
+(declare-function evil-ex-define-cmd "evil")
+(declare-function evil-ex-execute "evil")
+(declare-function evil-set-command-properties "evil")
+(declare-function evil-operator-range "evil")
+(declare-function evil-visual-state-p "evil")
+(declare-function evil-visual-type "evil")
+(declare-function evil-ex "evil")
+(declare-function rect-ext-evil-rectangle "rect-ext")
 
 (defgroup rect-ext nil
   "Provides extensions to rect.el such as a narrowing command for rectangles."
