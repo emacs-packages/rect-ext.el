@@ -107,7 +107,7 @@ text."
 For the rectangle delimited by BEG and END, execute the evil ex COMMAND-STRING."
     (interactive "<r><a>")
     (rect-ext-with-restriction beg end
-      (let ((evil-ex-current-buffer (current-buffer)))
+      (let ((evil-ex-original-buffer (current-buffer)))
         (evil-ex-execute (concat "%" command-string))))
     ;; FIXME: Implement a more robust solution (see #5)
     (delete-trailing-whitespace beg end))
